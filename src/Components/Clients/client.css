@@ -1,0 +1,45 @@
+
+.clients h1{
+    padding: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.clients{
+    
+    
+
+    margin-bottom: 10%;
+    padding: 20px;
+}
+
+.clients .clients_img{
+    padding: 40px;
+    
+}
+
+.clients_img img{
+    width: 70%;
+
+    @media screen and (max-width:700px) {
+
+        width: 100%;
+        
+    }
+}
+
+.clients_info{
+    padding: 20px;
+}
+
+.clients_info h2{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.clients_info p{
+    padding: 10px;
+    letter-spacing: 1.2;
+    font-size: 1.3rem;
+}

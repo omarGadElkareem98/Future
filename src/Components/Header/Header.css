@@ -1,0 +1,31 @@
+
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    padding: 20px;
+
+    @media screen and (max-width:700px)  {
+
+       display: flex;
+       justify-content: space-between;
+        
+    }
+}
+
+.company_phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.company_phone a{
+    color: white;
+}
+
+.compant_time{
+    display: flex;
+    align-items: center;
+    
+}
